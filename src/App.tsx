@@ -10,6 +10,7 @@ import SearchTable from './components/SearchTable';
 import SearchTableAxios from './components/SearchTableAxios';
 import SearchTableFetch from './components/searchTableFetch';
 import GetDataOnClick from './components/GetDataOnClick';
+import SelectBoxOnApi from './components/SelectBoxOnApi';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/searchtableaxios" element={<SearchTableAxios />}/>
         <Route path="/searchtablefetch" element={<SearchTableFetch />}/>
         <Route path="/getDataOnClick" element={<GetDataOnClick />}/>
+        <Route path="/selectBoxOnApi" element={<SelectBoxOnApi />}/>
       </Routes>
     </BrowserRouter>
   </>

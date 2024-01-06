@@ -34,6 +34,9 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="dropdown-item" to="/getDataONClick">Get Data On Click</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="dropdown-item" to="/selectBoxOnApi">Select Box On Api</Link>
+                            </li>
                         </ul>
                         </li>
                     </ul>
