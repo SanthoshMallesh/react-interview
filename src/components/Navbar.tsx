@@ -22,6 +22,18 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="dropdown-item" to="/counter">Counter App</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="dropdown-item" to="/searchtable">Search Data In Table Featch App</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="dropdown-item" to="/searchtableaxios">Search Data In Table Axios App</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="dropdown-item" to="/searchtablefetch">Search Data In Table Fetch App</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="dropdown-item" to="/getDataONClick">Get Data On Click</Link>
+                            </li>
                         </ul>
                         </li>
                     </ul>

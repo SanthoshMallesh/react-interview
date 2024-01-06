@@ -6,6 +6,10 @@ import Navbar from './components/Navbar';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Counter from './components/Counter';
+import SearchTable from './components/SearchTable';
+import SearchTableAxios from './components/SearchTableAxios';
+import SearchTableFetch from './components/searchTableFetch';
+import GetDataOnClick from './components/GetDataOnClick';
 
 function App() {
   return (
@@ -15,6 +19,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/counter" element={<Counter />}/>
+        <Route path="/searchtable" element={<SearchTable />}/>
+        <Route path="/searchtableaxios" element={<SearchTableAxios />}/>
+        <Route path="/searchtablefetch" element={<SearchTableFetch />}/>
+        <Route path="/getDataOnClick" element={<GetDataOnClick />}/>
       </Routes>
     </BrowserRouter>
   </>
